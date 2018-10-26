@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='pivx.conf'
-CONFIGFOLDER='/root/.obsr'
+CONFIGFOLDER='/root/.pivx'
 COIN_DAEMON='/usr/local/bin/pivx'
 COIN_CLI='/usr/local/bin/pivx-cli'
 COIN_REPO='https://github.com/PIVX-Project/PIVX/releases/download/v3.1.1/pivx-3.1.1-x86_64-linux-gnu.tar.gz'
