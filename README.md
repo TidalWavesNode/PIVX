@@ -21,7 +21,7 @@ After the MN is up and running, you need to configure the desktop wallet accordi
 4. Wait for 15 confirmations before starting the node.
 5. Go to **Help -> "Debug window - Console"**
 6. Type the following command: **masternode outputs**
-7. Open masternode.conf from the following folder %appdata%\obsr (windows) or ~/Library/Application Support/ (hidden folder for Mac users)
+7. Open masternode.conf from the following folder %appdata%\pivx (windows) or ~/Library/Application Support/ (hidden folder for Mac users)
 8. Add the following entry:
 ```
 Alias Address Genkey TxHash Output_index
@@ -32,7 +32,7 @@ Alias Address Genkey TxHash Output_index
 * TxHash: **First value from Step 6** 
 * Output index:  **Second value from Step 6** It can be **0** or **1**
 9. Click OK and exit the Wallet.
-10. Open Observer Core Wallet, go to **Masternode Tab**.
+10. Open PIVX Core Wallet, go to **Masternode Tab**.
 11. Click **Update status** to see your node. If it is not shown, close the wallet and start it again.
 10. Click **Start All** or **Start Alias**
 11. If you are not able to see your **Masternode**, try to close and open your desktop wallet.
@@ -48,11 +48,11 @@ Also, if you want to check/start/stop **PIVX** , run one of the following comman
 
 systemctl status PIVX #To check the service is running.
 
-systemctl start PIVX #To start Observer service.
+systemctl start PIVX #To start PIVX service.
 
-systemctl stop PIVX #To stop Observer service.
+systemctl stop PIVX #To stop PIVXr service.
 
-systemctl is-enabled Observer #To check whether PIVX service is enabled on boot or not.
+systemctl is-enabled PIVX #To check whether PIVX service is enabled on boot or not.
 
 ***
 # Donations
