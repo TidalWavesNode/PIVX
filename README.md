@@ -4,7 +4,7 @@ This will require a VPS running Ubuntu 16.04 or higher and installs **PIVX Core 
 ***
 
 ## Installation:
-Log into the server using ssh (Putty for windows or terminal for Mac users) and run the following commands:
+Log into the server using ssh (Putty for windows or terminal for Mac users) and run the following commands: Please consider using my vultr affiliate link if you do not have a VPS yet... https://www.vultr.com/?ref=7221480
 
 wget -q https://raw.githubusercontent.com/TidalWavesNode/PIVX/master/setup.sh
 
