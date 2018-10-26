@@ -15,9 +15,9 @@ bash setup.sh
 ## Desktop wallet setup
 
 After the MN is up and running, you need to configure the desktop wallet accordingly. Here are the steps for Windows/Mac Wallet:
-1. Open the Observer Core Wallet.
+1. Open the PIVX Core Wallet.
 2. Go to RECEIVE and create a New Address: **MN01**
-3. Send **1,000,000** **OBSR** to **MN01**.
+3. Send **10,000** **PIVX** to **MN01**.
 4. Wait for 15 confirmations before starting the node.
 5. Go to **Help -> "Debug window - Console"**
 6. Type the following command: **masternode outputs**
@@ -27,7 +27,7 @@ After the MN is up and running, you need to configure the desktop wallet accordi
 Alias Address Genkey TxHash Output_index
 ```
 * Alias: **MN01**
-* Address: **VPS_IP:9567**
+* Address: **VPS_IP:51472**
 * Genkey: **Masternode GenKey**
 * TxHash: **First value from Step 6** 
 * Output index:  **Second value from Step 6** It can be **0** or **1**
@@ -40,20 +40,20 @@ Alias Address Genkey TxHash Output_index
 
 ## Usage:
 
-obsr-cli getinfo
+pivx-cli getinfo
 
-obsr-cli masternode status
+pivx-cli masternode status
 
-Also, if you want to check/start/stop **Observer** , run one of the following commands as **root**:
+Also, if you want to check/start/stop **PIVX** , run one of the following commands as **root**:
 
-systemctl status Observer #To check the service is running.
+systemctl status PIVX #To check the service is running.
 
-systemctl start Observer #To start Observer service.
+systemctl start PIVX #To start Observer service.
 
-systemctl stop Observer #To stop Observer service.
+systemctl stop PIVX #To stop Observer service.
 
-systemctl is-enabled Observer #To check whether Observer service is enabled on boot or not.
+systemctl is-enabled Observer #To check whether PIVX service is enabled on boot or not.
 
 ***
 # Donations
-$OBSR: odaumHKFxC8WXhrpX4MhviqU7WTX23DS3r
+$PIVX: D6m95LwH3HTBBLg5tN1nnBtpvjETq9mk5e
