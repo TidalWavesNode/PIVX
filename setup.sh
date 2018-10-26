@@ -238,9 +238,9 @@ function import_bootstrap() {
   COIN_ZIP=$(echo $COIN_BS | awk -F'/' '{print $NF}')
   unzip $COIN_ZIP >/dev/null 2>&1
   compile_error
-  cp -r ~/bootstrap/blocks ~/.obsr/blocks
-  cp -r ~/bootstrap/chainstate ~/.obsr/chainstate
-  cp -r ~/bootstrap/peers.dat ~/.obsr/peers.dat
+  cp -r ~/bootstrap/blocks ~/.pivx/blocks
+  cp -r ~/bootstrap/chainstate ~/.pivx/chainstate
+  cp -r ~/bootstrap/peers.dat ~/.pivx/peers.dat
   rm -r ~/bootstrap/
   rm $COIN_ZIP
 }
