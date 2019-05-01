@@ -1,6 +1,6 @@
 # PIVX
 Shell script to install an [PIVX Masternode](https://pivx.org/) on a Linux server running Ubuntu 16.04 and above.  
-This will require a VPS running Ubuntu 16.04 or higher and installs **PIVX Core 3.1.1**.
+This will require a VPS running Ubuntu 16.04 or higher and installs **PIVX Core 3.2.1**.
 ***
 
 ## Installation:
